@@ -1,0 +1,51 @@
+  body {
+    font-family: "Lucida Grande", sans-serif;
+    background-color: darkgrey;
+  }
+  header {
+    text-align: center;
+  }
+  nav ul li {
+    display: inline-flex;
+  }
+  
+  li {
+    padding: 1em;
+    background-color: gold;
+  }
+
+  section {
+      max-height: 900px;
+      max-width: 500px;
+      background-color: lightblue;
+      margin: 100px;
+  }
+
+  h1 {
+      font-weight: bold;
+  }
+
+  h2 {
+      font-weight: italic;
+  }
+  div {
+      border: 3px solid black;
+  }
+  table {
+      table-layout: auto;
+      width: 100%;
+      border: 3px solid darkgreen;
+      text-align: center;
+      border-collapse: collapse;
+  }
+
+  thead,th,tr,td {
+      border: 3px solid darkblue;
+      padding: 5px;
+  }
+
+  th {
+      background-color: darkgoldenrod;
+  }
+
+  

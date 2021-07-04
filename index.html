@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joe's CheatSheet</title>
+    <link href="styles.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>CheatSheet</h1>
+        <nav>
+          <ul>
+            <li><a href="#HTML">HTML</a></li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#Docker">Kubernetes/Docker</a></li>
+            <li><a href="#Python">Python</a></li>
+          </ul>
+        </nav>
+      </header>
+    <section id="Docker">
+        <h1>Docker</h1>
+        <h2>Swarm Operation</h2>
+        <table>
+            <thead>
+                <th>Command</th>
+                <th>Description</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>docker swarm init</td>
+                    <td>Init Swarm</td>
+                </tr>
+                <tr>
+                    <td>docker swarm join</td>
+                    <td>Join Swarm</td>
+                </tr>
+                <tr>
+                    <td>docker swarm leave</td>
+                    <td>Leave Swarm</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="Python">
+        <h1>Python</h1>
+        <h2>Python Pandas Operation</h2>
+        <table>
+            <thead>
+                <th>Command</th>
+                <th>Description</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>df.iloc([0],[0])</td>
+                    <td>By position</td>
+                </tr>
+                <tr>
+                    <td>df.ix[2]</td>
+                    <td>Select a single row</td>
+                </tr>
+                <tr>
+                    <td>df.ix[:,'Capital']</td>
+                    <td>Select a single column</td>
+                </tr>
+                <tr>
+                    <td>for index,key in iterrows()</td>
+                    <td>iteration rows</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="HTML">
+        <h1>HTML</h1>
+        <h2>NAV Bar</h2>
+        <div>
+        <p>
+        <br> &lt;nav class=&quot;navigation-bar&quot;&gt;
+            <br>    &lt;ol&gt;
+                <br>    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Item1&lt;a&gt;&lt;/li&gt;
+                <br>    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Item2&lt;/a&gt;&lt;/li&gt;
+                <br>    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Item3&lt;/a&gt;&lt;/li&gt;
+            <br>    &lt;/ol&gt;
+        <br>    &lt;/nav&gt; 
+        </p>       
+        </div>
+        <h2>HTML tags as plain text</h2>
+        <table>
+            <thead>
+                <th>Charater</th>
+                <th>Entity</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>&amp;</td>
+                    <td>&amp;amp;</td>
+                </tr>
+                <tr>
+                    <td>&lt;</td>
+                    <td>&amp;lt;</td>
+                </tr>
+                <tr>
+                    <td>&gt;</td>
+                    <td>&amp;gt;</td>
+                </tr>
+                <tr>
+                    <td>&quot;</td>
+                    <td>&amp;quot;</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</body>
+</html>
